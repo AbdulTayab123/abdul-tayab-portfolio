@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#0b1220"/>
+  <g>
+    <rect x="80" y="80" width="1440" height="740" rx="18" fill="url(#g1)" opacity="0.12"/>
+    <text x="50%" y="48%" font-family="Inter, Arial" text-anchor="middle" fill="#e6eef8" font-size="56">AutoApplyPro</text>
+    <text x="50%" y="62%" font-family="Inter, Arial" text-anchor="middle" fill="#a9c3d9" font-size="28">AI-powered job search platform — Demo screenshot</text>
+  </g>
+</svg>
