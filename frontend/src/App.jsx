@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Spline from '@splinetool/react-spline';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -26,6 +27,7 @@ function App() {
         <div className="absolute top-0 left-0 w-96 h-96 bg-primary-500/10 rounded-full blur-3xl animate-float"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
         <div className="absolute top-1/2 left-1/2 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '4s' }}></div>
+        <Spline scene="https://prod.spline.design/ba53829f-ad48-4917-8f81-26676a7048c9/scene.splinecode" className="absolute inset-0 z-0 opacity-20" />
       </div>
 
       {/* Content */}

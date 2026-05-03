@@ -1,0 +1,28 @@
+{
+  "name": "live.portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdulTayab123/abdul-tayab-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdulTayab123/abdul-tayab-portfolio/issues"
+  },
+  "homepage": "https://github.com/AbdulTayab123/abdul-tayab-portfolio#readme",
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "vue": "^3.5.33"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
