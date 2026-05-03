@@ -1,28 +1,23 @@
 {
   "name": "live.portfolio",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Portfolio monorepo root",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
+    "start": "cd frontend && npm run dev"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AbdulTayab123/abdul-tayab-portfolio.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["portfolio", "react", "vite"],
+  "author": "Abdul Tayab",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AbdulTayab123/abdul-tayab-portfolio/issues"
   },
-  "homepage": "https://github.com/AbdulTayab123/abdul-tayab-portfolio#readme",
-  "dependencies": {
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
-    "vue": "^3.5.33"
-  },
-  "devDependencies": {
-    "live-server": "^1.2.2"
-  }
+  "homepage": "https://github.com/AbdulTayab123/abdul-tayab-portfolio#readme"
 }
